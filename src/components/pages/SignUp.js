@@ -34,7 +34,7 @@ export default function SignUp(){
                 <input type="text" value={email} onChange={(event) => setEmail(event.target.value)} placeholder="E-mail" />
                 <input type="password" value={password} onChange={(event) => setPassword(event.target.value)} placeholder="Senha"/>
                 <input type="password" value={confirmPassword} onChange={(event) => setConfirmPassword(event.target.value)} placeholder="Confirmar Senha"/>
-                <button type="submit" onClick={submitForm}>Cadastrar!</button>
+                <button type="submit" onClick={submitForm}>Cadastrar</button>
 
             </form>
             <Link to="/">Já tem uma conta? Entre agora!</Link>
